@@ -1,0 +1,7 @@
+function fetchSpeedometerReading() {
+  const url = 'https://example.com/speedometer'; // Replace with actual URL
+  const response = fetch(url); // Fetch data from server
+  const data = response.json(); // Convert response to JSON
+
+  return data.speed; // Return speedometer reading
+}
